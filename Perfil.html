@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Perfil.css">
+        <title>Mi perfil</title>
+    </head>
+    <body>
+        <div class="container">            
+            <div id="profile">
+                <h2>Mi perfil</h2>
+                <p id="name">Nombre:  </p>
+                <p id="email">Correo:  </p>
+                <p id="phone">Teléfono:  </p>
+                <p id="proyecto">Nombre del proyecto:  </p>
+
+                <img class="default-perfil" id="Pic-perfil" src="Perfil.jpg" alt="">
+                <input class="image" type="file" id="file-perfil">                
+            </div>
+
+            <div id="edit-profile">
+                <h2>Editar Perfil</h2>
+                <div class="form-group">
+                    <label for="name-input">Nombre:</label>
+                    <input type="text" id="name-input" placeholder="Ingresa tu nombre">
+                </div>
+
+                <div class="form-group">
+                    <label for="email-input">Email:</label>
+                    <input type="email" id="email-input" placeholder="Ingresa tu email">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone-input">Teléfono:</label>
+                    <input type="text" id="phone-input" placeholder="Ingresa tu teléfono">
+                </div>
+
+                <div class="form-group">
+                    <label for="proyecto-input">Nombre del proyecto:</label>
+                    <input type="text" id="proyecto-input" placeholder="Ingresa tu teléfono">
+                </div>
+
+                <div class="form-group">
+                    <button onclick="updateProfile()">Actualizar Perfil</button>
+                    <a href="Pag1.html"><button>Volver la página principal</button></a>
+                </div>
+            </div>
+        </div>
+
+    <script>
+        function updateProfile() 
+        {
+            var name = document.getElementById('name-input').value;
+            var email = document.getElementById('email-input').value;
+            var phone = document.getElementById('phone-input').value;
+            var proyecto = document.getElementById('proyecto-input').value;
+
+            document.getElementById('name').innerText = 'Nombre: ' + name;
+            document.getElementById('email').innerText = 'Email: ' + email;
+            document.getElementById('phone').innerText = 'Teléfono: ' + phone;
+            document.getElementById('proyecto').innerText = 'Nombre del proyecto: ' + proyecto;
+        }
+
+        document.getElementById('file-perfil').addEventListener('change', function(event) 
+        {
+            const file = event.target.files[0];
+            if (file) 
+            {
+                const reader = new FileReader();
+                reader.onload = function(e) 
+                {
+                    document.getElementById('Pic-perfil').src = e.target.result;
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+    </body>
+</html>

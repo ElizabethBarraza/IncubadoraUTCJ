@@ -1,0 +1,104 @@
+body{
+    background-color: white; 
+}
+.Foto-Perfil{
+    background: none; 
+    border: none; 
+    padding: 0;
+    margin-top: 100px;
+}
+.Pic-Perfil{
+    width: 80px;
+    height: auto;
+    margin-left: 1300px;
+}
+img{
+    width: 500px;
+    height: 500px;
+    margin-left: 380px;
+    margin-top: -280px;
+}
+.linea{
+    border: 0;
+    height: 2px;
+    background: #007bff;
+    margin-top: -150px;
+}
+.cuadro{
+    text-align: center;
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 130px;
+    border: 2px solid black; 
+    border-radius: 8px;
+}
+.Tit{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+details{
+    background-color:white ;
+    position: relative;
+}
+details[open]{
+    background: #ffffff
+}
+details summary{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+}
+details summary::marker{
+    content: "→ ";
+    color: darkgrey;
+    font-size: 22px;
+    
+}
+details[open] summary::marker{
+    content: "↓";
+}
+details[open] summary{
+    font-weight: 600;
+}
+details p{
+    color: rgb(55, 0, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.back{
+    margin-left: 150px;
+    margin-top: 20px;
+    background: #fff;
+    color: #000;
+    font-weight: 600; /* Grosor de la letra */
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 14px;
+    border: 2px solid black;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 15px;
+}
+.back:hover{
+    color: #fff;
+    border-color: #fff;
+    background:  #007bff;
+}
+.linea_ver{
+    width: 480px; 
+    height: 1.5px; 
+    background-color: #007bff; 
+    margin-left: 380px;
+    transform: rotate(90deg);
+    transform-origin: left;  
+    margin-top: -350px;
+}
+.container{
+    width: 950px;
+    height: auto;
+    margin-left: 450px;
+}

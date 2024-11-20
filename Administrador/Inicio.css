@@ -1,0 +1,152 @@
+body{
+    background-color: white; 
+}
+img{
+    width: 500px;
+    height: 600px;
+    margin-left: 400px;
+    margin-top: -350px;
+}
+.Foto-Perfil{
+    background: none; 
+    border: none; 
+    padding: 0;
+    margin-top: 150px;
+}
+.Pic-Perfil{
+    width: 80px;
+    height: auto;
+    margin-left: 1300px;
+}
+.linea{
+    border: 0;
+    height: 2px;
+    background: #007bff;
+    margin-top: -200px; 
+}
+.Bt1{
+    background: #fff;
+    color: #000;
+    font-weight: 600; /* Grosor de la letra */
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 20px;
+    border: 2px solid black;
+    box-shadow: 0 4px 15px ;
+    transition: 0.3s ease;
+    margin-top: 100px;
+    margin-left: 150px;   
+}
+.Bt1 img{
+    width: 25px;
+    height: 25px;
+    margin-left: 0px;
+}
+.Bt1:hover{
+    color: #fff;
+    border-color: #fff;
+    background:  #007bff;
+}
+.Bt2{
+    background: #fff;
+    color: #000;
+    font-weight: 600; /* Grosor de la letra */
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 20px;
+    border: 2px solid black;
+    box-shadow: 0 4px 15px ;
+    transition: 0.3s ease;
+    margin-top: 150px;
+    margin-left: 150px;
+    
+}
+.Bt2 img{
+    width: 25px;
+    height: 25px;
+    margin-left: 0px;
+}
+.Bt2:hover{
+    color: #fff;
+    border-color: #fff;
+    background:  #007bff;
+}
+.Bt3{
+    background: #fff;
+    color: #000;
+    font-weight: 600; /* Grosor de la letra */
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 20px;
+    border: 2px solid black;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 15px ;
+    margin-top: 150px; 
+    margin-left: 150px;
+}
+.Bt3 img{
+    width: 30px;
+    height: 25px;
+    margin-left: 0px;
+}
+.Bt3:hover{
+    color: #fff;
+    border-color: #fff;
+    background:  #007bff;
+}
+.Bt4{
+    background: #fff;
+    color: #000;
+    font-weight: 600; /* Grosor de la letra */
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 20px;
+    border: 2px solid black;
+    box-shadow: 0 4px 15px ;
+    transition: 0.3s ease;
+    margin-top: 148px;
+    margin-left: 350px;
+}
+.Bt4 img{
+    width: 30px;
+    height: 25px;
+    margin-left: 0px;
+}
+.Bt4:hover{
+    color: #fff;
+    border-color: #fff;
+    background:  #007bff;
+}
+.Bt5{
+    background: #fff;
+    color: #000;
+    font-weight: 600; /* Grosor de la letra */
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 20px;
+    border: 2px solid black;
+    box-shadow: 0 4px 15px ;
+    transition: 0.3s ease;
+    margin-top: -600px;
+    margin-left: 180px;
+}
+.Bt5 img{
+    width: 30px;
+    height: 25px;
+    margin-left: 0px;
+}
+.Bt5:hover{
+    color: #fff;
+    border-color: #fff;
+    background:  #007bff; 
+}
