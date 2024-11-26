@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <head>
+
+        <title>Cursos Incubadora UTCJ</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Style.css"> 
+
+    </head>
+    <body>
+        
+        <div class="Titulo">
+            <section>    
+                <h1>Bienvenido al curso de Incubadora de empresas UTCJ!</h1>
+                <hr class="linea">
+            </section>
+        </div>
+        <div class="Section1">
+            <section>
+                <img src="IDEAS.svg">
+                <p class="mision">Este curso busa encaminar a los emprendimientos y empresas brindando servicios y herramientas
+                    administrativas y tecnológicas que faciliten la toma de desiciones, la creación y el desarrollo de los mismos.
+                </p>
+            </section>
+            
+            <a href="Contactar.html"><button type="submit" class="Asesoria">Solicitar asesoría</a></button> 
+                
+            <a href="InicioS.html"><right><button type="submit" class="Login">Inicio de sesión</a></button></right>
+                   
+        </div>       
+       
+    </body>
+
+</html>

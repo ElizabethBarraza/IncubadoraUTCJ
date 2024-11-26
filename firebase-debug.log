@@ -1,0 +1,25 @@
+[debug] [2024-11-26T17:58:11.847Z] ----------------------------------------------------------------------
+[debug] [2024-11-26T17:58:11.850Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Eliba\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-26T17:58:11.851Z] CLI Version:   13.27.0
+[debug] [2024-11-26T17:58:11.851Z] Platform:      win32
+[debug] [2024-11-26T17:58:11.851Z] Node Version:  v22.11.0
+[debug] [2024-11-26T17:58:11.851Z] Time:          Tue Nov 26 2024 10:58:11 GMT-0700 (hora estándar de la montaña)
+[debug] [2024-11-26T17:58:11.851Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-26T17:58:11.858Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-26T17:58:11.859Z] > authorizing via signed-in user (elibarraza934@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\xampp\htdocs\IncubadoraUTCJ
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
